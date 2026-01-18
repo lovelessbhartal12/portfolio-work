@@ -6,7 +6,7 @@
   align-items: flex-start;
   padding: 0 30px;
   background: #efe7ec;
-  background-image: url("/image/lovelessimg.png");
+  background-image: url("./image/lovelessimg.png");
   background-position: bottom right;
   background-size: contain;
   background-repeat: no-repeat;

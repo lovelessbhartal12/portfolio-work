@@ -1,0 +1,62 @@
+#hero {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 30px;
+  background: #efe7ec;
+  background-image: url("/image/lovelessimg.png");
+  background-position: bottom right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#hero > h1 {
+  font-size: 28px;
+  line-height: 1.3;
+  /* letter-spacing: 5px; */
+  font-weight: 700;
+  font-family: "playfair Display";
+  margin-bottom: 20px;
+}
+#hero > p {
+  font-family: "Quicksand";
+  font-weight: 300px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+#hero > button {
+  font-weight: normal;
+  background-color: transparent;
+  padding: 10px 15px;
+  width: 300px;
+  border: 1px solid black;
+
+  border-radius: 2px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  animation: oscillate 0.5s ease-in-out infinite;
+  cursor: pointer;
+}
+@keyframes oscillate {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+#hero > button > i {
+  font-size: 15px;
+}
